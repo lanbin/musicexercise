@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chord Composition</title>
+  <link rel="stylesheet/less" type="text/css" href="../style/global.less">
+  <link rel="stylesheet/less" type="text/css" href="index.less">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.js"></script>
+  <script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <h1 id="title">{{title}}</h1>
+    <div class="panel">
+      <div class="question">
+        <h3>What tones consisted this chord?</h3>
+        <h3>{{chordConsist.join('')}}</h3>
+      </div>
+      <div class="operation">
+        <h3>Consist</h3>
+        <div class="group">
+          <input type="radio" v-model="m" value='0'>Major
+          <input type="radio" v-model="m" value='1'>Minor
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+
+</html>

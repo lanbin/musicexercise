@@ -1,0 +1,23 @@
+{
+  "name": "musicapplication",
+  "version": "1.0.0",
+  "description": "music exercise",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanbin/musicexercise.git"
+  },
+  "keywords": [
+    "music",
+    "theory"
+  ],
+  "author": "lanbin1987@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lanbin/musicexercise/issues"
+  },
+  "homepage": "https://github.com/lanbin/musicexercise#readme"
+}
