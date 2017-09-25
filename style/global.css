@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  outline: none;
+}
+
+html, body{
+  background: #efefef;
+}
+
+input, button{
+  border-radius: 4px;
+  border: 1px solid black;
+  background: white;
+  box-shadow: 1px 1px black;
+}
+
+button:active{
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
